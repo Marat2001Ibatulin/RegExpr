@@ -1,7 +1,6 @@
 from pprint import pprint
 import csv
 import re
-from typing import final
 
 with open("phonebook.csv", encoding="utf-8") as f:
     rows = csv.reader(f, delimiter=",")
